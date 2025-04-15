@@ -1,0 +1,99 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hina Mincho', serif;
+    line-height: 1.6;
+    color: #5a3e36;
+    background-color: #fff9fb;
+    padding: 20px;
+}
+
+#sakura-header {
+    text-align: center;
+    color: #8a1d3e;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: linear-gradient(to right, #ffb7c5, #fff9fb);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(138,29,62,0.1);
+}
+
+.tour-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1.5rem auto;
+    box-shadow: 0 2px 15px rgba(255,183,197,0.2);
+    max-width: 800px;
+    border: 1px solid #ffe6eb;
+}
+
+.sakura-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border: 2px solid #ffb7c5;
+    filter: sepia(0.1);
+}
+
+.highlight {
+    color: #8a1d3e;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #fff0f3;
+    border-left: 4px solid #ff6b81;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-primary {
+    background-color: #ff6b81;
+    color: white;
+}
+
+.cta-secondary {
+    background-color: #8a1d3e;
+    color: white;
+}
+
+/* Hover effects */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(138,29,62,0.2);
+}
+
+/* Pricing style */
+.pricing {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #5a3e36;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+
+/* Footer styling */
+#sakura-footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    color: #8a1d3e;
+    border-top: 2px solid #ffe6eb;
+}
